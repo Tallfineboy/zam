@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="zam.Home">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+
+                    <StackLayout>
+                        <yummy:PancakeView BackgroundColor="WhiteSmoke" Margin="10,5,10,10" WidthRequest="450" HeightRequest="70" CornerRadius="15">
+                            <Grid Padding="10" >
+                                <Button ImageSource="agent.png" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" HeightRequest="50" WidthRequest="50" BackgroundColor="WhiteSmoke" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked" FontAttributes="Bold" FontSize="15"></Button>
+                                <Label Text="Hi, KYNNGVON" Grid.Row="0" Grid.ColumnSpan="3" TextColor="Black" FontSize="16" FontAttributes="Bold" Margin="60,0,0,0"></Label>
+                                <Image Source="alarmblack.png" Grid.Row="0" Grid.Column="5" Aspect="AspectFit" ></Image>
+
+
+
+                            </Grid>
+
+                        </yummy:PancakeView>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10"  Margin="20,-120,20,-20">
+
+                        <yummy:PancakeView   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="80" HeightRequest="150" CornerRadius="20">
+                            <Grid Padding="10" >
+
+
+                                <Button Text="Any account violation of this notice will" TextColor="#E4A43B" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="3" BackgroundColor="#F9ECD7" CornerRadius="10"></Button>
+
+
+
+                            </Grid>
+
+
+
+                        </yummy:PancakeView>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="10,0,10,0">
+
+                        <yummy:PancakeView BackgroundColor="WhiteSmoke"   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="80" HeightRequest="200" CornerRadius="10">
+                            <StackLayout>
+                                <yummy:PancakeView BackgroundColor="#00b389" Margin="10,10,10,10" WidthRequest="480" HeightRequest="190" CornerRadius="11">
+                                    <Grid Padding="10" >
+                                        <Label Text="Available Balance" Grid.Row="0" Grid.ColumnSpan="2" TextColor="White" FontSize="13" ></Label>
+                                        <Label Text="Transaction History" Grid.Row="0" Grid.Column="2" TextColor="White" FontSize="13"></Label>
+                                        <Label Text="#10,000" Grid.Row="1" Grid.ColumnSpan="2"  TextColor="White" FontSize="16" FontAttributes="Bold"></Label>
+                                        <Button Text="+ Add Money" Grid.Row="1" Grid.Column="2" TextColor="#00b389" BackgroundColor="White" CornerRadius="17" Clicked="Button_Clicked" FontSize="10" FontAttributes="Bold"></Button>
+                                    </Grid>
+
+                                </yummy:PancakeView>
+                                <StackLayout Orientation="Horizontal" Spacing="15" HorizontalOptions="CenterAndExpand">
+                                    <Button ImageSource="toopay.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_1" FontAttributes="Bold" FontSize="15"></Button>
+
+                                    <Button ImageSource="bank.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_2" FontAttributes="Bold" FontSize="15"></Button>
+
+                                    <Button ImageSource="withdraw.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_3" FontAttributes="Bold" FontSize="15"></Button>
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Spacing="40" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="To Opay"  HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="15"></Label>
+
+                                    <Label Text="To Bank"  HorizontalOptions="StartAndExpand"  TextColor="Black" Margin="10,0,0,0" FontSize="15"></Label>
+
+                                    <Label Text="Withdraw" HorizontalOptions="StartAndExpand"  TextColor="Black"  FontSize="15"></Label>
+
+                                </StackLayout>
+                            </StackLayout>
+
+
+                        </yummy:PancakeView>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="10,10,0,-10">
+
+                        <yummy:PancakeView BackgroundColor="WhiteSmoke"   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="80" HeightRequest="160" CornerRadius="10">
+                            <StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Spacing="15" HorizontalOptions="CenterAndExpand">
+                                    <Button ImageSource="airtime.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_4" FontAttributes="Bold" FontSize="15"></Button>
+
+                                    <Button ImageSource="data.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_5" FontAttributes="Bold" FontSize="15"></Button>
+
+                                    <Button ImageSource="football.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_6" FontAttributes="Bold" FontSize="15"></Button>
+
+                                    <Button ImageSource="tv.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_7" FontAttributes="Bold" FontSize="15"></Button>
+
+
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="40" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="Airtime"  HorizontalOptions="StartAndExpand" TextColor="Black" Margin="-20,0,0,0"  FontSize="15"></Label>
+
+                                    <Label Text="Data"  HorizontalOptions="StartAndExpand"  TextColor="Black" Margin="10,0,0,0"   FontSize="15"></Label>
+
+                                    <Label Text="Betting" HorizontalOptions="StartAndExpand"  TextColor="Black"  FontSize="15"></Label>
+
+                                    <Label Text="TV"  HorizontalOptions="StartAndExpand" TextColor="Black" Margin="20,0,0,0"  FontSize="15"></Label>
+
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Spacing="15" HorizontalOptions="CenterAndExpand">
+                                    <Button ImageSource="owealth.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_8"  FontSize="15"></Button>
+
+                                    <Button ImageSource="loan.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_9"  FontSize="15"></Button>
+
+                                    <Button ImageSource="child.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_10"  FontSize="15"></Button>
+
+                                    <Button ImageSource="more.png" HeightRequest="50" WidthRequest="70" BackgroundColor="White" HorizontalOptions="StartAndExpand" CornerRadius="5" TextColor="White" Clicked="Button_Clicked_11"  FontSize="15"></Button>
+
+
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="40" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="OWealth"  HorizontalOptions="StartAndExpand" TextColor="Black"   FontSize="15"></Label>
+
+                                    <Label Text="Loan"  HorizontalOptions="StartAndExpand"  TextColor="Black" Margin="10,0,0,0" FontSize="15"></Label>
+
+                                    <Label Text="Play4aChild" HorizontalOptions="StartAndExpand"  TextColor="Black"  FontSize="15"></Label>
+
+                                    <Label Text="More"  HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="15"></Label>
+
+
+                                </StackLayout>
+                            </StackLayout>
+
+
+                        </yummy:PancakeView>
+
+                    </StackLayout>
+
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Always">
+
+                        <StackLayout Orientation="Horizontal" Spacing="10" Margin="10,0,10,15">
+
+                            <yummy:PancakeView BackgroundColor="#00b393" Opacity="1.1"   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="60" HeightRequest="110" CornerRadius="10">
+                                <StackLayout>
+                                    <Label Text="New Year Deal" TextColor="White" FontSize="18" HorizontalTextAlignment="Center">
+
+                                    </Label>
+                                    <Label Text="30% Cashback" TextColor="White" FontSize="20" CharacterSpacing="1" Padding="3" FontAttributes="Bold" HorizontalTextAlignment="Center" >
+
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
+                                        <Button Text="See More" TextColor="#00b398" BackgroundColor="white" HeightRequest="35" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" CornerRadius="10" Clicked="Button_Clicked_3" FontAttributes="Bold" FontSize="15"></Button>
+
+
+                                    </StackLayout>
+                                </StackLayout>
+
+
+                            </yummy:PancakeView>
+
+                            <yummy:PancakeView BackgroundColor="#2196f3" Opacity="1.1"   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="60" HeightRequest="110" CornerRadius="10">
+                                <StackLayout>
+                                    <Label Text="Use Promo Code" TextColor="White" FontSize="18" HorizontalTextAlignment="Center">
+
+                                    </Label>
+                                    <Label Text="10% OFF" TextColor="White" FontSize="20" CharacterSpacing="1" Padding="3" FontAttributes="Bold" HorizontalTextAlignment="Center" >
+
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="CenterAndExpand">
+                                        <Button Text="See More" TextColor="#2196f3" BackgroundColor="white" HeightRequest="35" CornerRadius="10" Clicked="Button_Clicked_3" FontAttributes="Bold" FontSize="15"></Button>
+
+
+                                    </StackLayout>
+                                </StackLayout>
+
+
+                            </yummy:PancakeView>
+
+                            <yummy:PancakeView BackgroundColor="#00b393" Opacity="1.1"   HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="FillAndExpand" WidthRequest="60" HeightRequest="110" CornerRadius="10">
+                                <StackLayout>
+                                    <Label Text="New Year Deal" TextColor="White" FontSize="18" HorizontalTextAlignment="Center">
+
+                                    </Label>
+                                    <Label Text="30% Cashback" TextColor="White" FontSize="20" CharacterSpacing="1" Padding="3" FontAttributes="Bold" HorizontalTextAlignment="Center" >
+
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
+                                        <Button Text="See More" TextColor="#00b398" BackgroundColor="white" HeightRequest="35" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" CornerRadius="10" Clicked="Button_Clicked_3" FontAttributes="Bold" FontSize="15"></Button>
+
+
+                                    </StackLayout>
+                                </StackLayout>
+
+
+                            </yummy:PancakeView>
+
+
+
+
+                        </StackLayout>
+
+                    </ScrollView>
+
+
+                   
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
